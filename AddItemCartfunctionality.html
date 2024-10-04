@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="AddItemCartfunctionality.css">
+    <script defer src="AdditemCartfunctionality.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Shopping Cart</h1>
+        </header>
+        <main>
+            <section class="cart-section">
+                <div class="cart-items">
+                    <div class="cart-item cart-header">
+                        <div class="item-number">S.No</div>
+                        <div class="item-name">Items</div>
+                        <div class="item-price">Price</div>
+                        <div class="item-quantity">Quantity</div>
+                        <div class="remove"></div>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <h2>Total: Rs <span id="total-price">0.00</span></h2>
+                </div>
+            </section>
+
+            <section class="product-section">
+                <h2>Available Products</h2>
+                <div class="products">
+                    <div class="product" data-name="Paracetamol" data-price="40">
+                        <img class="paracetamol-tablet" src="C:\Users\lenovo l450\OneDrive\Desktop\paracetamol-tablet.jpeg" alt="paracetamol-tablet">
+                        <h3>Paracetamol</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Acelopenac" data-price="60">
+                        <img class="paracetamol-tablet" src="C:\Users\lenovo l450\OneDrive\Desktop\aceclofenac-tablet.webp" alt="aceclofenac-tablet">
+                        <h3>Acelopenac</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Omeprazole" data-price="30">
+                        <img class="paracetamol-tablet" src="C:\Users\lenovo l450\OneDrive\Desktop\Omeprazole.jfif" alt="Omeprazole-tablet">
+                        <h3>Omeprazole</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product" data-name="Saridon" data-price="50">
+                        <img class="paracetamol-tablet" src="C:\Users\lenovo l450\OneDrive\Desktop\Saridon.jfif" alt="Omeprazole-tablet">
+                        <h3>Saridon</h3>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    
+</body>
+
+</html>
